@@ -90,6 +90,6 @@ export default class ClassesController {
             .select(['classes.*', 'users.*']);
 
 
-        return res.json({classes});
+        return res.json(classes);
     }
 }
